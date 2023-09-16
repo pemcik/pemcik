@@ -2,7 +2,7 @@ from libs.utils import readFile
 import datetime
 
 class SysLogParser(object):
-    log_file_path = '/var/log/syslog'
+    log_file_path = '/home/parrot/pysec2023/logparser/syslog.examample'
     keywords = [
         'fatal',
         'failed',

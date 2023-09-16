@@ -2,7 +2,7 @@ from libs.utils import readFile
 import datetime
 
 class AuthLogParser(object):
-    log_file_path = '/var/log/auth.log'
+    log_file_path = '/var/log/boot.log'
 
     keywords = [
         'fatal',
