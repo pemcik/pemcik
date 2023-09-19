@@ -1,48 +1,28 @@
+import json
 import re
-import csv
-import datetime
+from datetime import datetime
+file_name = "/var/log/dpkg.log"
+file = open(file_name, "r")
+data = []
+order = ["date", "time", "triger", "task", "package", "version"]
 
-class DpkgLogParser(object):
-    log_file_path = '/var/log/dpkg.log'
-    keywords:[
-        'install',
-    ]
-def __init__(self):
-    pass
-def info(self):
-    print("This is my DPKG.log parser witch searches 'install' in log file ")
-def getLogFilePath(self):
-        return self.log_file_path
-def readFile(path):
-    lines = []
+for line in file.readlines():
+    details = line.split(" ")
+    details = [x.strip() for x in details]
+    structure = {key:value for key, value in zip(order, details)}
+    data.append(structure)
+save_file = open("/home/parrot/pysec2023/1.json", "w")
+json.dump(data,save_file,indent = 6)
+save_file.close()
+with open("/home/parrot/pysec2023/1.json", "r") as f:
+  data1 = json.load(f)
+  date = data1["date"]
+  for date in data1:
+     print(date)
 
-    with open(path) as log_file:
-        for line in log_file:
-            r = re.compile(r'^(?P<month>\S{3})? {1,2}(?P<day>\S+) (?P<time>\S+) (?P<hostname>\S+) (?P<process>.+?(?=\[)|.+?(?=))[^a-zA-Z0-9](?P<pid>\d{1,7}|)[^a-zA-Z0-9]{1,3}(?P<info>.*)$')
-            for match in r.finditer(line):
-                lines.append(match.groupdict())
+#print(data1[date][0][time][0][package] + ":")
 
-    return lines
-def readFile(self):
+    #for entry in data:
+        #print(json.dumps(entry, indent = 6))
 
-        lines = readFile(self.log_file_path)
-        for log_dict in lines:
-            for keyword in self.keywords_users:
-                if keyword in log_dict['info']:
-                    # print(
-                    #     '''----log----
-                    #         date: {}
-                    #         message: {}
-                    #         '''.format(
-                    #     '{} {} {}'.format(log_dict['month'], log_dict['day'], log_dict['time']),
-                    #     log_dict['info']
-                    # ))
-
-                    # Sep 15 19:39:01
-                    date = '{} {} {} {}'.format(datetime.datetime.now().year, log_dict['month'], log_dict['day'], log_dict['time'])
-                    # print(date)
-                    formatted_date = datetime.datetime.strptime(date, "%Y %b %d %H:%M:%S")
-                    timestamp = datetime.datetime.timestamp(formatted_date)
-                    # print(timestamp)
-
-        return
+#print(data)
