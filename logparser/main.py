@@ -1,10 +1,9 @@
 import json
-import re
-from datetime import datetime
+import datetime
 file_name = "/var/log/dpkg.log"
 file = open(file_name, "r")
 data = []
-order = ["date", "time", "triger", "task", "package", "version"]
+order = ["Date", "Time", "Triger", "Task", "Package", "Version"]
 
 for line in file.readlines():
     details = line.split(" ")
@@ -14,15 +13,13 @@ for line in file.readlines():
 save_file = open("/home/parrot/pysec2023/1.json", "w")
 json.dump(data,save_file,indent = 6)
 save_file.close()
-with open("/home/parrot/pysec2023/1.json", "r") as f:
-  data1 = json.load(f)
-  date = data1["date"]
-  for date in data1:
-     print(date)
-
-#print(data1[date][0][time][0][package] + ":")
-
-    #for entry in data:
-        #print(json.dumps(entry, indent = 6))
-
-#print(data)
+fp = open("/home/parrot/pysec2023/1.json")
+data = json.load(fp)
+#dt = datetime.datetime.now()
+#dt_str = dt.strftime("%Y-%m-%d %H:%M:%S")
+#json_data = json.dumps(dt_str)
+#print(json_data)
+#print("Printing incident date, time and package: \n", data)
+content = fp.read("Date")
+print(content)
+#print(data['Date'][0]['Time'][0]['Package'])
