@@ -7,7 +7,6 @@ import os
 from pathlib import Path
 space =  '    '
 branch = '│   '
-# pointers:
 tee =    '├── '
 last =   '└── '
 def tree(dir_path: Path, prefix: str=''):
