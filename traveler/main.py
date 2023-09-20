@@ -21,19 +21,27 @@ import os
 #     print(line)
 
 import os
-
-for dirname, dirnames, filenames in os.walk('.'):
-    # print path to all subdirectories first.
-    for subdirname in dirnames:
-        print(os.path.join(dirname, subdirname))
-
-    # print path to all filenames.
-    for filename in filenames:
-        print(os.path.join(dirname, filename))
-
-    # Advanced usage:
-    # editing the 'dirnames' list will stop os.walk() from recursing into there.
-    if '.git' in dirnames:
-        # don't go into any .git directories.
-        dirnames.remove('venv3.9')
-        dirnames.remove('.git')
+import glob
+#for dirname, dirnames, filenames in os.walk('.'):
+    #for subdirname in dirnames:
+    #    print(os.path.join(dirname, subdirname))
+    #for filename in filenames:
+    #    print(os.path.join(dirname, filename))
+    #if '.git' in dirnames:
+    #    dirnames.remove('.git')
+   # if 'venv3.9' in dirnames:
+   #     dirnames.remove('venv3.9')
+    # files = glob.glob("dir/**/*")
+    # files.sort(key=os.path.getmtime)
+    # print("\n".join(files))
+path = os.walk('.')
+for root, dirs, files in os.walk('.'):
+    print(root)
+dirs[:] = [d for d in dirs if not d.startswith('-')]
+for dir in dirs:
+    print(os.path.join(root, dir))
+for file in files:
+    print(os.path.join(root, file))
+#list_of_files = sorted( filter( os.path.isfile, glob.glob('dir_name' + '/**/*', recursive=True)))
+#for file_path in list_of_files:
+#    print(file_path) 
