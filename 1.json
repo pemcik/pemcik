@@ -4807,5 +4807,1144 @@
             "Task": "installed",
             "Package": "man-db:amd64",
             "Version": "2.10.1-1~bpo11+1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:42",
+            "Triger": "startup",
+            "Task": "archives",
+            "Package": "unpack"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:42",
+            "Triger": "install",
+            "Task": "libjs-popper.js:all",
+            "Package": "<none>",
+            "Version": "1.16.1+ds-3"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:42",
+            "Triger": "status",
+            "Task": "half-installed",
+            "Package": "libjs-popper.js:all",
+            "Version": "1.16.1+ds-3"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:43",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "libjs-popper.js:all",
+            "Version": "1.16.1+ds-3"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:43",
+            "Triger": "install",
+            "Task": "libjs-bootstrap4:all",
+            "Package": "<none>",
+            "Version": "4.5.2+dfsg1-8~deb11u1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:43",
+            "Triger": "status",
+            "Task": "half-installed",
+            "Package": "libjs-bootstrap4:all",
+            "Version": "4.5.2+dfsg1-8~deb11u1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:43",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "libjs-bootstrap4:all",
+            "Version": "4.5.2+dfsg1-8~deb11u1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:43",
+            "Triger": "install",
+            "Task": "libjs-lunr:all",
+            "Package": "<none>",
+            "Version": "2.3.8~dfsg-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:43",
+            "Triger": "status",
+            "Task": "half-installed",
+            "Package": "libjs-lunr:all",
+            "Version": "2.3.8~dfsg-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:43",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "libjs-lunr:all",
+            "Version": "2.3.8~dfsg-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:43",
+            "Triger": "install",
+            "Task": "libjs-modernizr:all",
+            "Package": "<none>",
+            "Version": "2.6.2+ds1-4"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:44",
+            "Triger": "status",
+            "Task": "half-installed",
+            "Package": "libjs-modernizr:all",
+            "Version": "2.6.2+ds1-4"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:44",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "libjs-modernizr:all",
+            "Version": "2.6.2+ds1-4"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:44",
+            "Triger": "install",
+            "Task": "libjs-sizzle:all",
+            "Package": "<none>",
+            "Version": "2.3.5+ds-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:44",
+            "Triger": "status",
+            "Task": "half-installed",
+            "Package": "libjs-sizzle:all",
+            "Version": "2.3.5+ds-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:44",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "libjs-sizzle:all",
+            "Version": "2.3.5+ds-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:44",
+            "Triger": "install",
+            "Task": "python3-livereload:all",
+            "Package": "<none>",
+            "Version": "2.6.3-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:44",
+            "Triger": "status",
+            "Task": "half-installed",
+            "Package": "python3-livereload:all",
+            "Version": "2.6.3-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:44",
+            "Triger": "status",
+            "Task": "triggers-pending",
+            "Package": "man-db:amd64",
+            "Version": "2.10.1-1~bpo11+1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:44",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "python3-livereload:all",
+            "Version": "2.6.3-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:44",
+            "Triger": "install",
+            "Task": "mkdocs:all",
+            "Package": "<none>",
+            "Version": "1.1.2+dfsg-1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:44",
+            "Triger": "status",
+            "Task": "half-installed",
+            "Package": "mkdocs:all",
+            "Version": "1.1.2+dfsg-1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:44",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "mkdocs:all",
+            "Version": "1.1.2+dfsg-1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:44",
+            "Triger": "install",
+            "Task": "node-jquery:all",
+            "Package": "<none>",
+            "Version": "3.5.1+dfsg+~3.5.5-7"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:44",
+            "Triger": "status",
+            "Task": "half-installed",
+            "Package": "node-jquery:all",
+            "Version": "3.5.1+dfsg+~3.5.5-7"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:44",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "node-jquery:all",
+            "Version": "3.5.1+dfsg+~3.5.5-7"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:44",
+            "Triger": "install",
+            "Task": "python3-userpath:all",
+            "Package": "<none>",
+            "Version": "1.4.2-1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:44",
+            "Triger": "status",
+            "Task": "half-installed",
+            "Package": "python3-userpath:all",
+            "Version": "1.4.2-1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:44",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "python3-userpath:all",
+            "Version": "1.4.2-1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:44",
+            "Triger": "install",
+            "Task": "pipx:all",
+            "Package": "<none>",
+            "Version": "1.0.0-1~bpo11+1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:44",
+            "Triger": "status",
+            "Task": "half-installed",
+            "Package": "pipx:all",
+            "Version": "1.0.0-1~bpo11+1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:44",
+            "Triger": "status",
+            "Task": "triggers-pending",
+            "Package": "doc-base:all",
+            "Version": "0.11.1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "pipx:all",
+            "Version": "1.0.0-1~bpo11+1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "startup",
+            "Task": "packages",
+            "Package": "configure"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "configure",
+            "Task": "libjs-popper.js:all",
+            "Package": "1.16.1+ds-3",
+            "Version": "<none>"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "libjs-popper.js:all",
+            "Version": "1.16.1+ds-3"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "half-configured",
+            "Package": "libjs-popper.js:all",
+            "Version": "1.16.1+ds-3"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "installed",
+            "Package": "libjs-popper.js:all",
+            "Version": "1.16.1+ds-3"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "configure",
+            "Task": "libjs-lunr:all",
+            "Package": "2.3.8~dfsg-2",
+            "Version": "<none>"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "libjs-lunr:all",
+            "Version": "2.3.8~dfsg-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "half-configured",
+            "Package": "libjs-lunr:all",
+            "Version": "2.3.8~dfsg-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "installed",
+            "Package": "libjs-lunr:all",
+            "Version": "2.3.8~dfsg-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "configure",
+            "Task": "libjs-sizzle:all",
+            "Package": "2.3.5+ds-2",
+            "Version": "<none>"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "libjs-sizzle:all",
+            "Version": "2.3.5+ds-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "half-configured",
+            "Package": "libjs-sizzle:all",
+            "Version": "2.3.5+ds-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "installed",
+            "Package": "libjs-sizzle:all",
+            "Version": "2.3.5+ds-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "configure",
+            "Task": "libjs-modernizr:all",
+            "Package": "2.6.2+ds1-4",
+            "Version": "<none>"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "libjs-modernizr:all",
+            "Version": "2.6.2+ds1-4"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "half-configured",
+            "Package": "libjs-modernizr:all",
+            "Version": "2.6.2+ds1-4"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "installed",
+            "Package": "libjs-modernizr:all",
+            "Version": "2.6.2+ds1-4"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "configure",
+            "Task": "python3-livereload:all",
+            "Package": "2.6.3-2",
+            "Version": "<none>"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "python3-livereload:all",
+            "Version": "2.6.3-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "half-configured",
+            "Package": "python3-livereload:all",
+            "Version": "2.6.3-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "installed",
+            "Package": "python3-livereload:all",
+            "Version": "2.6.3-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "configure",
+            "Task": "libjs-bootstrap4:all",
+            "Package": "4.5.2+dfsg1-8~deb11u1",
+            "Version": "<none>"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "libjs-bootstrap4:all",
+            "Version": "4.5.2+dfsg1-8~deb11u1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "half-configured",
+            "Package": "libjs-bootstrap4:all",
+            "Version": "4.5.2+dfsg1-8~deb11u1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "installed",
+            "Package": "libjs-bootstrap4:all",
+            "Version": "4.5.2+dfsg1-8~deb11u1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "configure",
+            "Task": "node-jquery:all",
+            "Package": "3.5.1+dfsg+~3.5.5-7",
+            "Version": "<none>"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "node-jquery:all",
+            "Version": "3.5.1+dfsg+~3.5.5-7"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "half-configured",
+            "Package": "node-jquery:all",
+            "Version": "3.5.1+dfsg+~3.5.5-7"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "installed",
+            "Package": "node-jquery:all",
+            "Version": "3.5.1+dfsg+~3.5.5-7"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "configure",
+            "Task": "python3-userpath:all",
+            "Package": "1.4.2-1",
+            "Version": "<none>"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "python3-userpath:all",
+            "Version": "1.4.2-1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "half-configured",
+            "Package": "python3-userpath:all",
+            "Version": "1.4.2-1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "installed",
+            "Package": "python3-userpath:all",
+            "Version": "1.4.2-1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "configure",
+            "Task": "pipx:all",
+            "Package": "1.0.0-1~bpo11+1",
+            "Version": "<none>"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "pipx:all",
+            "Version": "1.0.0-1~bpo11+1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "half-configured",
+            "Package": "pipx:all",
+            "Version": "1.0.0-1~bpo11+1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "installed",
+            "Package": "pipx:all",
+            "Version": "1.0.0-1~bpo11+1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "configure",
+            "Task": "mkdocs:all",
+            "Package": "1.1.2+dfsg-1",
+            "Version": "<none>"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "mkdocs:all",
+            "Version": "1.1.2+dfsg-1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "half-configured",
+            "Package": "mkdocs:all",
+            "Version": "1.1.2+dfsg-1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "installed",
+            "Package": "mkdocs:all",
+            "Version": "1.1.2+dfsg-1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "trigproc",
+            "Task": "man-db:amd64",
+            "Package": "2.10.1-1~bpo11+1",
+            "Version": "<none>"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:45",
+            "Triger": "status",
+            "Task": "half-configured",
+            "Package": "man-db:amd64",
+            "Version": "2.10.1-1~bpo11+1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:47",
+            "Triger": "status",
+            "Task": "installed",
+            "Package": "man-db:amd64",
+            "Version": "2.10.1-1~bpo11+1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:47",
+            "Triger": "trigproc",
+            "Task": "doc-base:all",
+            "Package": "0.11.1",
+            "Version": "<none>"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:47",
+            "Triger": "status",
+            "Task": "half-configured",
+            "Package": "doc-base:all",
+            "Version": "0.11.1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "08:49:48",
+            "Triger": "status",
+            "Task": "installed",
+            "Package": "doc-base:all",
+            "Version": "0.11.1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:28",
+            "Triger": "startup",
+            "Task": "archives",
+            "Package": "unpack"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:28",
+            "Triger": "install",
+            "Task": "cmake-data:all",
+            "Package": "<none>",
+            "Version": "3.18.4-2+deb11u1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:28",
+            "Triger": "status",
+            "Task": "half-installed",
+            "Package": "cmake-data:all",
+            "Version": "3.18.4-2+deb11u1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:28",
+            "Triger": "status",
+            "Task": "triggers-pending",
+            "Package": "man-db:amd64",
+            "Version": "2.10.1-1~bpo11+1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:33",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "cmake-data:all",
+            "Version": "3.18.4-2+deb11u1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:33",
+            "Triger": "install",
+            "Task": "libjsoncpp24:amd64",
+            "Package": "<none>",
+            "Version": "1.9.4-4"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:33",
+            "Triger": "status",
+            "Task": "triggers-pending",
+            "Package": "libc-bin:amd64",
+            "Version": "2.31-13+deb11u6"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:33",
+            "Triger": "status",
+            "Task": "half-installed",
+            "Package": "libjsoncpp24:amd64",
+            "Version": "1.9.4-4"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:33",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "libjsoncpp24:amd64",
+            "Version": "1.9.4-4"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "install",
+            "Task": "librhash0:amd64",
+            "Package": "<none>",
+            "Version": "1.4.1-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "status",
+            "Task": "half-installed",
+            "Package": "librhash0:amd64",
+            "Version": "1.4.1-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "librhash0:amd64",
+            "Version": "1.4.1-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "install",
+            "Task": "cmake:amd64",
+            "Package": "<none>",
+            "Version": "3.18.4-2+deb11u1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "status",
+            "Task": "half-installed",
+            "Package": "cmake:amd64",
+            "Version": "3.18.4-2+deb11u1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "cmake:amd64",
+            "Version": "3.18.4-2+deb11u1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "startup",
+            "Task": "packages",
+            "Package": "configure"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "configure",
+            "Task": "libjsoncpp24:amd64",
+            "Package": "1.9.4-4",
+            "Version": "<none>"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "libjsoncpp24:amd64",
+            "Version": "1.9.4-4"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "status",
+            "Task": "half-configured",
+            "Package": "libjsoncpp24:amd64",
+            "Version": "1.9.4-4"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "status",
+            "Task": "installed",
+            "Package": "libjsoncpp24:amd64",
+            "Version": "1.9.4-4"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "configure",
+            "Task": "librhash0:amd64",
+            "Package": "1.4.1-2",
+            "Version": "<none>"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "librhash0:amd64",
+            "Version": "1.4.1-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "status",
+            "Task": "half-configured",
+            "Package": "librhash0:amd64",
+            "Version": "1.4.1-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "status",
+            "Task": "installed",
+            "Package": "librhash0:amd64",
+            "Version": "1.4.1-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "configure",
+            "Task": "cmake-data:all",
+            "Package": "3.18.4-2+deb11u1",
+            "Version": "<none>"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "cmake-data:all",
+            "Version": "3.18.4-2+deb11u1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "status",
+            "Task": "half-configured",
+            "Package": "cmake-data:all",
+            "Version": "3.18.4-2+deb11u1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "status",
+            "Task": "installed",
+            "Package": "cmake-data:all",
+            "Version": "3.18.4-2+deb11u1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "configure",
+            "Task": "cmake:amd64",
+            "Package": "3.18.4-2+deb11u1",
+            "Version": "<none>"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "cmake:amd64",
+            "Version": "3.18.4-2+deb11u1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "status",
+            "Task": "half-configured",
+            "Package": "cmake:amd64",
+            "Version": "3.18.4-2+deb11u1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "status",
+            "Task": "installed",
+            "Package": "cmake:amd64",
+            "Version": "3.18.4-2+deb11u1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "trigproc",
+            "Task": "man-db:amd64",
+            "Package": "2.10.1-1~bpo11+1",
+            "Version": "<none>"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "status",
+            "Task": "half-configured",
+            "Package": "man-db:amd64",
+            "Version": "2.10.1-1~bpo11+1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "status",
+            "Task": "installed",
+            "Package": "man-db:amd64",
+            "Version": "2.10.1-1~bpo11+1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "trigproc",
+            "Task": "libc-bin:amd64",
+            "Package": "2.31-13+deb11u6",
+            "Version": "<none>"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "status",
+            "Task": "half-configured",
+            "Package": "libc-bin:amd64",
+            "Version": "2.31-13+deb11u6"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "09:27:34",
+            "Triger": "status",
+            "Task": "installed",
+            "Package": "libc-bin:amd64",
+            "Version": "2.31-13+deb11u6"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:45",
+            "Triger": "startup",
+            "Task": "archives",
+            "Package": "install"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:45",
+            "Triger": "upgrade",
+            "Task": "code:amd64",
+            "Package": "1.82.0-1694039253",
+            "Version": "1.82.2-1694671812"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:45",
+            "Triger": "status",
+            "Task": "half-configured",
+            "Package": "code:amd64",
+            "Version": "1.82.0-1694039253"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:45",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "code:amd64",
+            "Version": "1.82.0-1694039253"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:45",
+            "Triger": "status",
+            "Task": "half-installed",
+            "Package": "code:amd64",
+            "Version": "1.82.0-1694039253"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:45",
+            "Triger": "status",
+            "Task": "triggers-pending",
+            "Package": "desktop-file-utils:amd64",
+            "Version": "0.26-1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:45",
+            "Triger": "status",
+            "Task": "triggers-pending",
+            "Package": "bamfdaemon:amd64",
+            "Version": "0.5.4-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:45",
+            "Triger": "status",
+            "Task": "triggers-pending",
+            "Package": "mailcap:all",
+            "Version": "3.69"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:50",
+            "Triger": "status",
+            "Task": "triggers-pending",
+            "Package": "shared-mime-info:amd64",
+            "Version": "2.0-1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:54",
+            "Triger": "status",
+            "Task": "unpacked",
+            "Package": "code:amd64",
+            "Version": "1.82.2-1694671812"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:54",
+            "Triger": "configure",
+            "Task": "code:amd64",
+            "Package": "1.82.2-1694671812",
+            "Version": "1.82.2-1694671812"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:54",
+            "Triger": "status",
+            "Task": "half-configured",
+            "Package": "code:amd64",
+            "Version": "1.82.2-1694671812"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:56",
+            "Triger": "status",
+            "Task": "installed",
+            "Package": "code:amd64",
+            "Version": "1.82.2-1694671812"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:56",
+            "Triger": "trigproc",
+            "Task": "desktop-file-utils:amd64",
+            "Package": "0.26-1",
+            "Version": "<none>"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:56",
+            "Triger": "status",
+            "Task": "half-configured",
+            "Package": "desktop-file-utils:amd64",
+            "Version": "0.26-1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:56",
+            "Triger": "status",
+            "Task": "installed",
+            "Package": "desktop-file-utils:amd64",
+            "Version": "0.26-1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:56",
+            "Triger": "trigproc",
+            "Task": "bamfdaemon:amd64",
+            "Package": "0.5.4-2",
+            "Version": "<none>"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:56",
+            "Triger": "status",
+            "Task": "half-configured",
+            "Package": "bamfdaemon:amd64",
+            "Version": "0.5.4-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:56",
+            "Triger": "status",
+            "Task": "installed",
+            "Package": "bamfdaemon:amd64",
+            "Version": "0.5.4-2"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:56",
+            "Triger": "trigproc",
+            "Task": "mailcap:all",
+            "Package": "3.69",
+            "Version": "<none>"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:56",
+            "Triger": "status",
+            "Task": "half-configured",
+            "Package": "mailcap:all",
+            "Version": "3.69"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:56",
+            "Triger": "status",
+            "Task": "installed",
+            "Package": "mailcap:all",
+            "Version": "3.69"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:56",
+            "Triger": "trigproc",
+            "Task": "shared-mime-info:amd64",
+            "Package": "2.0-1",
+            "Version": "<none>"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:56",
+            "Triger": "status",
+            "Task": "half-configured",
+            "Package": "shared-mime-info:amd64",
+            "Version": "2.0-1"
+      },
+      {
+            "Date": "2023-09-23",
+            "Time": "10:01:58",
+            "Triger": "status",
+            "Task": "installed",
+            "Package": "shared-mime-info:amd64",
+            "Version": "2.0-1"
       }
 ]
