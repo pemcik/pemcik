@@ -1,26 +1,18 @@
 
-import json
-import datetime
-file_name = "/var/log/dpkg.log"
-file = open(file_name, "r")
-data = []
-order = ["Date", "Time", "Triger", "Task", "Package", "Version"]
+import os
 
-for line in file.readlines():
-    details = line.split(" ")
-    details = [x.strip() for x in details]
-    structure = {key:value for key, value in zip(order, details)}
-    data.append(structure)
-save_file = open("/home/parrot/pysec2023/1.json", "w")
-json.dump(data,save_file,indent = 6)
-save_file.close()
-fp = open("/home/parrot/pysec2023/1.json")
-data = json.load(fp)
-#dt = datetime.datetime.now()
-#dt_str = dt.strftime("%Y-%m-%d %H:%M:%S")
-#json_data = json.dumps(dt_str)
-#print(json_data)
-#print("Printing incident date, time and package: \n", data)
-content = fp.read("Date")
-print(content)
-#print(data['Date'][0]['Time'][0]['Package'])
+def traverse_directory(directory):
+    for root, subdirectories, files in os.walk(directory):
+        print(f"Current Directory: {root}")
+
+        # Print all files in the current directory
+        for file in files:
+            print(f"File: {file}")
+
+        # Print all subdirectories in the current directory
+        for subdirectory in subdirectories:
+            print(f"Directory: {subdirectory}")
+
+if __name__ == "__main__":
+    directory_to_traverse = input("Enter the directory path to traverse: ")
+    traverse_directory(directory_to_traverse)
