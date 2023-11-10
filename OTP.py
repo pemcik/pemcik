@@ -49,7 +49,7 @@ if __name__ == '__main__':
         action = input("Encrypt (enc) or Decrypt (dec): ")
         input_filename = input("input filename: ")
         otp_filename = input("OTP filename: ")
-        output_filename = input("output filenem: ")
+        output_filename = input("output filename: ")
     else:
         action = sys.argv[1]
         input_filename = sys.argv[2]
